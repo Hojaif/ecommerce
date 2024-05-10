@@ -190,6 +190,10 @@ class AppData {
       type: ProductType.tv,
       icon: Icons.tv,
     ),
+    ProductCategory(
+      type: ProductType.tv,
+      icon: Icons.filter_tilt_shift,
+    ),
   ];
 
   static List<Color> randomColors = [

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:e_commerce_flutter/src/model/product.dart';
-import 'package:e_commerce_flutter/src/view/animation/open_container_wrapper.dart';
+
+import '../utility/animation/open_container_wrapper.dart';
+
 
 class ProductGridView extends StatelessWidget {
   const ProductGridView({

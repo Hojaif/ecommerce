@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:e_commerce_flutter/src/model/product_category.dart';
 
-class ListItemSelector extends StatefulWidget {
-  const ListItemSelector({
+class CategorySelector extends StatefulWidget {
+  const CategorySelector({
     super.key,
     required this.categories,
     required this.onItemPressed,
@@ -14,10 +14,10 @@ class ListItemSelector extends StatefulWidget {
   final Function(int) onItemPressed;
 
   @override
-  State<ListItemSelector> createState() => _ListItemSelectorState();
+  State<CategorySelector> createState() => _CategorySelectorState();
 }
 
-class _ListItemSelectorState extends State<ListItemSelector> {
+class _CategorySelectorState extends State<CategorySelector> {
   Widget item(ProductCategory item, int index) {
     return Tooltip(
       message: item.type.name.capitalizeFirst,

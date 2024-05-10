@@ -1,5 +1,6 @@
-import 'package:e_commerce_flutter/core/app_data.dart';
 import 'package:e_commerce_flutter/src/model/product_size_type.dart';
+
+import '../../utility/app_data.dart';
 
 enum ProductType { all, watch, mobile, headphone, tablet, tv }
 
